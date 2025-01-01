@@ -16,7 +16,7 @@
   <h1>Fancy Heatmap - Audi Dealerships</h1>
   <div id="map"></div>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTh9UgVzbTwBEDbKKCZp8UhQ7g4-evmvc&libraries=places&callback=initMap" async defer></script>
   <script>
     let map;
     let infowindow;
@@ -24,7 +24,7 @@
     function initMap() {
       // Initialize the map centered around a test location (e.g., New York City)
       map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 40.730610, lng: -73.935242}, // NYC coordinates
+        center: {lat: 37.5754641, lng: -122.3447605}, // Burlingame coordinates
         zoom: 12
       });
 
